@@ -1,0 +1,1072 @@
+Archived,CallTrace,CommandLine,Company,ComputerName,CreationUtcTime,CurrentDirectory,Description,Details,EventCode,EventType,FileVersion,GrantedAccess,Hashes,Image,ImageLoaded,IntegrityLevel,IsExecutable,Keywords,LogName,LogonGuid,LogonId,Message,OpCode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessId,Product,QueryName,QueryResults,QueryStatus,RecordNumber,RuleName,Sid,SidType,Signature,SignatureStatus,Signed,SourceImage,SourceName,SourceProcessGUID,SourceProcessId,SourceThreadId,SourceUser,TargetFilename,TargetImage,TargetObject,TargetProcessGUID,TargetProcessId,TargetUser,TaskCategory,TerminalSessionId,Type,User,UtcTime,"_raw","_time","date_hour","date_mday","date_minute","date_month","date_second","date_wday","date_year","date_zone","driver_is_signed","driver_loaded","driver_signature","driver_signature_status","dst_host_name","dst_ip","dst_is_ipv6","dst_port","dst_port_name","event_creation_time","event_description","event_id","event_status","event_type",eventtype,"file_company","file_creation_time","file_description","file_directory","file_name","file_path","file_previous_creation_time","file_product","file_version","hash_imphash","hash_md5","hash_sha1","hash_sha256",host,"host_name",index,initiated,linecount,"network_connection_initiated","network_protocol","original_file_name","parent_user_name","pipe_name","process_call_trace","process_command_line","process_granted_access","process_guid","process_id","process_integrity_level","process_name","process_parent_command_line","process_parent_guid","process_parent_id","process_parent_name","process_parent_path","process_path",punct,"query_name","query_results","query_status","registry_key_details","registry_key_new_name","registry_key_path","service_state",source,sourcetype,"splunk_server","splunk_server_group","src_host_name","src_ip","src_is_ipv6","sysmon_configuration","sysmon_configuration_hash","sysmon_schema_version",tag,"tag::eventtype","target_process_address","target_process_guid","target_process_id","target_process_name","target_process_path","target_user_name","thread_id","thread_new_id","thread_start_address","thread_start_function","thread_start_module",timeendpos,timestartpos,"user_logon_guid","user_logon_id","user_name","user_session_id","user_sid","wmi_consumer_destination","wmi_consumer_name","wmi_consumer_path","wmi_consumer_type","wmi_filter_name","wmi_filter_path","wmi_namespace","wmi_operation","wmi_query"
+,,,,"DESKTOP-ACUIGRD",,,,,22,4,,,,"<unknown process>",,,,None,"Microsoft-Windows-Sysmon/Operational",,,"Dns query:
+RuleName: -
+UtcTime: 2024-01-13 23:32:25.267
+ProcessGuid: {00000000-0000-0000-0000-000000000000}
+ProcessId: 6416
+QueryName: beam.scs.splunk.com
+QueryStatus: 0
+QueryResults: ::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;
+Image: <unknown process>
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,"{00000000-0000-0000-0000-000000000000}",6416,,"beam.scs.splunk.com","::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;",0,134775,"-","S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,,,,,,,"Dns query (rule: DnsQuery)",,Information,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM","2024-01-13 23:32:25.267","01/13/2024 06:31:46 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=22
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134775
+Keywords=None
+TaskCategory=Dns query (rule: DnsQuery)
+OpCode=Info
+Message=Dns query:
+RuleName: -
+UtcTime: 2024-01-13 23:32:25.267
+ProcessGuid: {00000000-0000-0000-0000-000000000000}
+ProcessId: 6416
+QueryName: beam.scs.splunk.com
+QueryStatus: 0
+QueryResults: ::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;
+Image: <unknown process>
+User: NT AUTHORITY\SYSTEM","2024-01-13T21:31:46.000-05:00",18,13,31,january,46,saturday,2024,local,,,,,,,,,,"2024-01-13 23:32:25.267","DNS Query",22,,4,,,,,,,,,,,,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,24,,,,,,,,,,,,"<unknown process>",,,,,,"<unknown process>","//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","beam.scs.splunk.com","::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;",0,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM",,,,,,,,,,,
+,,,,"DESKTOP-ACUIGRD",,,,,22,4,,,,"<unknown process>",,,,None,"Microsoft-Windows-Sysmon/Operational",,,"Dns query:
+RuleName: -
+UtcTime: 2024-01-13 23:32:10.217
+ProcessGuid: {00000000-0000-0000-0000-000000000000}
+ProcessId: 3328
+QueryName: beam.scs.splunk.com
+QueryStatus: 0
+QueryResults: ::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;
+Image: <unknown process>
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,"{00000000-0000-0000-0000-000000000000}",3328,,"beam.scs.splunk.com","::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;",0,134774,"-","S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,,,,,,,"Dns query (rule: DnsQuery)",,Information,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM","2024-01-13 23:32:10.217","01/13/2024 06:31:31 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=22
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134774
+Keywords=None
+TaskCategory=Dns query (rule: DnsQuery)
+OpCode=Info
+Message=Dns query:
+RuleName: -
+UtcTime: 2024-01-13 23:32:10.217
+ProcessGuid: {00000000-0000-0000-0000-000000000000}
+ProcessId: 3328
+QueryName: beam.scs.splunk.com
+QueryStatus: 0
+QueryResults: ::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;
+Image: <unknown process>
+User: NT AUTHORITY\SYSTEM","2024-01-13T21:31:31.000-05:00",18,13,31,january,31,saturday,2024,local,,,,,,,,,,"2024-01-13 23:32:10.217","DNS Query",22,,4,,,,,,,,,,,,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,24,,,,,,,,,,,,"<unknown process>",,,,,,"<unknown process>","//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","beam.scs.splunk.com","::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;",0,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM",,,,,,,,,,,
+,,,,"DESKTOP-ACUIGRD",,,,,22,4,,,,"<unknown process>",,,,None,"Microsoft-Windows-Sysmon/Operational",,,"Dns query:
+RuleName: -
+UtcTime: 2024-01-13 23:31:55.610
+ProcessGuid: {00000000-0000-0000-0000-000000000000}
+ProcessId: 1944
+QueryName: beam.scs.splunk.com
+QueryStatus: 0
+QueryResults: ::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;
+Image: <unknown process>
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,"{00000000-0000-0000-0000-000000000000}",1944,,"beam.scs.splunk.com","::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;",0,134773,"-","S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,,,,,,,"Dns query (rule: DnsQuery)",,Information,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM","2024-01-13 23:31:55.610","01/13/2024 06:31:17 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=22
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134773
+Keywords=None
+TaskCategory=Dns query (rule: DnsQuery)
+OpCode=Info
+Message=Dns query:
+RuleName: -
+UtcTime: 2024-01-13 23:31:55.610
+ProcessGuid: {00000000-0000-0000-0000-000000000000}
+ProcessId: 1944
+QueryName: beam.scs.splunk.com
+QueryStatus: 0
+QueryResults: ::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;
+Image: <unknown process>
+User: NT AUTHORITY\SYSTEM","2024-01-13T21:31:17.000-05:00",18,13,31,january,17,saturday,2024,local,,,,,,,,,,"2024-01-13 23:31:55.610","DNS Query",22,,4,,,,,,,,,,,,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,24,,,,,,,,,,,,"<unknown process>",,,,,,"<unknown process>","//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","beam.scs.splunk.com","::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;",0,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM",,,,,,,,,,,
+,,,,"DESKTOP-ACUIGRD",,,,,22,4,,,,"<unknown process>",,,,None,"Microsoft-Windows-Sysmon/Operational",,,"Dns query:
+RuleName: -
+UtcTime: 2024-01-13 23:31:40.314
+ProcessGuid: {00000000-0000-0000-0000-000000000000}
+ProcessId: 10276
+QueryName: beam.scs.splunk.com
+QueryStatus: 0
+QueryResults: ::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;
+Image: <unknown process>
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,"{00000000-0000-0000-0000-000000000000}",10276,,"beam.scs.splunk.com","::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;",0,134772,"-","S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,,,,,,,"Dns query (rule: DnsQuery)",,Information,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM","2024-01-13 23:31:40.314","01/13/2024 06:31:01 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=22
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134772
+Keywords=None
+TaskCategory=Dns query (rule: DnsQuery)
+OpCode=Info
+Message=Dns query:
+RuleName: -
+UtcTime: 2024-01-13 23:31:40.314
+ProcessGuid: {00000000-0000-0000-0000-000000000000}
+ProcessId: 10276
+QueryName: beam.scs.splunk.com
+QueryStatus: 0
+QueryResults: ::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;
+Image: <unknown process>
+User: NT AUTHORITY\SYSTEM","2024-01-13T21:31:01.000-05:00",18,13,31,january,1,saturday,2024,local,,,,,,,,,,"2024-01-13 23:31:40.314","DNS Query",22,,4,,,,,,,,,,,,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,24,,,,,,,,,,,,"<unknown process>",,,,,,"<unknown process>","//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","beam.scs.splunk.com","::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;",0,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM",,,,,,,,,,,
+true,,,,"DESKTOP-ACUIGRD",,,,,23,4,,,"SHA1=EA6CBA05428E525BF0D1A6E733C8292A26C21EA6,MD5=CA11AD5336A157BF0276902C880BB9DE,SHA256=F0B68DFC15C961715BD9327DA65142E0327EDB563B7C9893D1FF108831335C18,IMPHASH=00000000000000000000000000000000","C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe",,,false,None,"Microsoft-Windows-Sysmon/Operational",,,"File Delete archived:
+RuleName: -
+UtcTime: 2024-01-13 23:30:50.900
+ProcessGuid: {00efea9f-0e27-65a3-2e13-000000000900}
+ProcessId: 6928
+User: DESKTOP-ACUIGRD\MS2
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+TargetFilename: C:\Users\MS2\AppData\Local\Microsoft_Corporation\powershell_ise.exe_StrongName_lw2v2vm3wmtzzpebq33gybmeoxukb04w\3.0.0.0\AutoSaveInformation\6928.xml~RF70c998.TMP
+Hashes: SHA1=EA6CBA05428E525BF0D1A6E733C8292A26C21EA6,MD5=CA11AD5336A157BF0276902C880BB9DE,SHA256=F0B68DFC15C961715BD9327DA65142E0327EDB563B7C9893D1FF108831335C18,IMPHASH=00000000000000000000000000000000
+IsExecutable: false
+Archived: true",Info,,,,,,,"{00efea9f-0e27-65a3-2e13-000000000900}",6928,,,,,134771,"-","S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,"C:\Users\MS2\AppData\Local\Microsoft_Corporation\powershell_ise.exe_StrongName_lw2v2vm3wmtzzpebq33gybmeoxukb04w\3.0.0.0\AutoSaveInformation\6928.xml~RF70c998.TMP",,,,,,"File Delete archived (rule: FileDelete)",,Information,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2","2024-01-13 23:30:50.900","01/13/2024 06:30:50 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=23
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134771
+Keywords=None
+TaskCategory=File Delete archived (rule: FileDelete)
+OpCode=Info
+Message=File Delete archived:
+RuleName: -
+UtcTime: 2024-01-13 23:30:50.900
+ProcessGuid: {00efea9f-0e27-65a3-2e13-000000000900}
+ProcessId: 6928
+User: DESKTOP-ACUIGRD\MS2
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+TargetFilename: C:\Users\MS2\AppData\Local\Microsoft_Corporation\powershell_ise.exe_StrongName_lw2v2vm3wmtzzpebq33gybmeoxukb04w\3.0.0.0\AutoSaveInformation\6928.xml~RF70c998.TMP
+Hashes: SHA1=EA6CBA05428E525BF0D1A6E733C8292A26C21EA6,MD5=CA11AD5336A157BF0276902C880BB9DE,SHA256=F0B68DFC15C961715BD9327DA65142E0327EDB563B7C9893D1FF108831335C18,IMPHASH=00000000000000000000000000000000
+IsExecutable: false
+Archived: true","2024-01-13T21:30:50.000-05:00",18,13,30,january,50,saturday,2024,local,,,,,,,,,,"2024-01-13 23:30:50.900","File deleted",23,,4,,,,,,,"C:\Users\MS2\AppData\Local\Microsoft_Corporation\powershell_ise.exe_StrongName_lw2v2vm3wmtzzpebq33gybmeoxukb04w\3.0.0.0\AutoSaveInformation\6928.xml~RF70c998.TMP",,,,,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,25,,,,,,,,,,,,"",,,,,,,"//_::_=--/===-==---==--====___(:_)==__:\r:_-\r:_--_:",,,,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2",,,,,,,,,,,
+,,,,"DESKTOP-ACUIGRD",,,,,22,4,,,,"<unknown process>",,,,None,"Microsoft-Windows-Sysmon/Operational",,,"Dns query:
+RuleName: -
+UtcTime: 2024-01-13 23:31:25.279
+ProcessGuid: {00000000-0000-0000-0000-000000000000}
+ProcessId: 3872
+QueryName: beam.scs.splunk.com
+QueryStatus: 0
+QueryResults: ::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;
+Image: <unknown process>
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,"{00000000-0000-0000-0000-000000000000}",3872,,"beam.scs.splunk.com","::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;",0,134770,"-","S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,,,,,,,"Dns query (rule: DnsQuery)",,Information,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM","2024-01-13 23:31:25.279","01/13/2024 06:30:46 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=22
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134770
+Keywords=None
+TaskCategory=Dns query (rule: DnsQuery)
+OpCode=Info
+Message=Dns query:
+RuleName: -
+UtcTime: 2024-01-13 23:31:25.279
+ProcessGuid: {00000000-0000-0000-0000-000000000000}
+ProcessId: 3872
+QueryName: beam.scs.splunk.com
+QueryStatus: 0
+QueryResults: ::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;
+Image: <unknown process>
+User: NT AUTHORITY\SYSTEM","2024-01-13T21:30:46.000-05:00",18,13,30,january,46,saturday,2024,local,,,,,,,,,,"2024-01-13 23:31:25.279","DNS Query",22,,4,,,,,,,,,,,,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,24,,,,,,,,,,,,"<unknown process>",,,,,,"<unknown process>","//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","beam.scs.splunk.com","::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;",0,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM",,,,,,,,,,,
+,,,,"DESKTOP-ACUIGRD",,,,,22,4,,,,"<unknown process>",,,,None,"Microsoft-Windows-Sysmon/Operational",,,"Dns query:
+RuleName: -
+UtcTime: 2024-01-13 23:31:10.248
+ProcessGuid: {00000000-0000-0000-0000-000000000000}
+ProcessId: 9552
+QueryName: beam.scs.splunk.com
+QueryStatus: 0
+QueryResults: ::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;
+Image: <unknown process>
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,"{00000000-0000-0000-0000-000000000000}",9552,,"beam.scs.splunk.com","::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;",0,134769,"-","S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,,,,,,,"Dns query (rule: DnsQuery)",,Information,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM","2024-01-13 23:31:10.248","01/13/2024 06:30:31 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=22
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134769
+Keywords=None
+TaskCategory=Dns query (rule: DnsQuery)
+OpCode=Info
+Message=Dns query:
+RuleName: -
+UtcTime: 2024-01-13 23:31:10.248
+ProcessGuid: {00000000-0000-0000-0000-000000000000}
+ProcessId: 9552
+QueryName: beam.scs.splunk.com
+QueryStatus: 0
+QueryResults: ::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;
+Image: <unknown process>
+User: NT AUTHORITY\SYSTEM","2024-01-13T21:30:31.000-05:00",18,13,30,january,31,saturday,2024,local,,,,,,,,,,"2024-01-13 23:31:10.248","DNS Query",22,,4,,,,,,,,,,,,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,24,,,,,,,,,,,,"<unknown process>",,,,,,"<unknown process>","//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","beam.scs.splunk.com","::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;",0,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM",,,,,,,,,,,
+,,,,"DESKTOP-ACUIGRD",,,,"c:\Windows\Temp\google1.ps1",13,"4
+SetValue",,,,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe",,,,None,"Microsoft-Windows-Sysmon/Operational",,,"Registry value set:
+RuleName: technique_id=T1547.001,technique_name=Registry Run Keys / Start Folder
+EventType: SetValue
+UtcTime: 2024-01-13 23:30:20.373
+ProcessGuid: {00efea9f-0e27-65a3-2e13-000000000900}
+ProcessId: 6928
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+TargetObject: HKU\S-1-5-21-2027239191-755833379-2515012329-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\google1
+Details: c:\Windows\Temp\google1.ps1
+User: DESKTOP-ACUIGRD\MS2",Info,,,,,,,"{00efea9f-0e27-65a3-2e13-000000000900}",6928,,,,,134768,"technique_id=T1547.001,technique_name=Registry Run Keys / Start Folder","S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,,,"HKU\S-1-5-21-2027239191-755833379-2515012329-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\google1",,,,"Registry value set (rule: RegistryEvent)",,Information,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2","2024-01-13 23:30:20.373","01/13/2024 06:30:20 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=13
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134768
+Keywords=None
+TaskCategory=Registry value set (rule: RegistryEvent)
+OpCode=Info
+Message=Registry value set:
+RuleName: technique_id=T1547.001,technique_name=Registry Run Keys / Start Folder
+EventType: SetValue
+UtcTime: 2024-01-13 23:30:20.373
+ProcessGuid: {00efea9f-0e27-65a3-2e13-000000000900}
+ProcessId: 6928
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+TargetObject: HKU\S-1-5-21-2027239191-755833379-2515012329-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\google1
+Details: c:\Windows\Temp\google1.ps1
+User: DESKTOP-ACUIGRD\MS2","2024-01-13T21:30:20.000-05:00",18,13,30,january,20,saturday,2024,local,,,,,,,,,,"2024-01-13 23:30:20.373","Registry value set",13,,"4
+SetValue",,,,,,,,,,,,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,24,,,,,,,,,"{00efea9f-0e27-65a3-2e13-000000000900}",6928,,"powershell_ise.exe",,,,,,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe","//_::_=--/===-==---==--====___(:_)==__:\r:_=.,=___/",,,,"c:\Windows\Temp\google1.ps1",,"HKU\S-1-5-21-2027239191-755833379-2515012329-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\google1",,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2",,,,,,,,,,,
+,,,,"DESKTOP-ACUIGRD","2024-01-13 23:30:20.309",,,,11,4,,,,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe",,,,None,"Microsoft-Windows-Sysmon/Operational",,,"File created:
+RuleName: technique_id=T1574.010,technique_name=Services File Permissions Weakness
+UtcTime: 2024-01-13 23:30:20.309
+ProcessGuid: {00efea9f-0e27-65a3-2e13-000000000900}
+ProcessId: 6928
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+TargetFilename: C:\Windows\Temp\gamedata\google1.txt
+CreationUtcTime: 2024-01-13 23:30:20.309
+User: DESKTOP-ACUIGRD\MS2",Info,,,,,,,"{00efea9f-0e27-65a3-2e13-000000000900}",6928,,,,,134767,"technique_id=T1574.010,technique_name=Services File Permissions Weakness","S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,"C:\Windows\Temp\gamedata\google1.txt",,,,,,"File created (rule: FileCreate)",,Information,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2","2024-01-13 23:30:20.309","01/13/2024 06:30:20 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=11
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134767
+Keywords=None
+TaskCategory=File created (rule: FileCreate)
+OpCode=Info
+Message=File created:
+RuleName: technique_id=T1574.010,technique_name=Services File Permissions Weakness
+UtcTime: 2024-01-13 23:30:20.309
+ProcessGuid: {00efea9f-0e27-65a3-2e13-000000000900}
+ProcessId: 6928
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+TargetFilename: C:\Windows\Temp\gamedata\google1.txt
+CreationUtcTime: 2024-01-13 23:30:20.309
+User: DESKTOP-ACUIGRD\MS2","2024-01-13T21:30:20.000-05:00",18,13,30,january,20,saturday,2024,local,,,,,,,,,,"2024-01-13 23:30:20.309","File Created",11,,4,,,"2024-01-13 23:30:20.309",,,,"C:\Windows\Temp\gamedata\google1.txt",,,,,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,23,,,,,,,,,"{00efea9f-0e27-65a3-2e13-000000000900}",6928,,"powershell_ise.exe",,,,,,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe","//_::_=--/===-==---==--====__(:_)==_:\r:_=.,=___\r:_",,,,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2",,,,,,,,,,,
+,,,,"DESKTOP-ACUIGRD","2024-01-13 23:30:20.301",,,,11,4,,,,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe",,,,None,"Microsoft-Windows-Sysmon/Operational",,,"File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2024-01-13 23:30:20.301
+ProcessGuid: {00efea9f-0e27-65a3-2e13-000000000900}
+ProcessId: 6928
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+TargetFilename: C:\Windows\Temp\google1.ps1
+CreationUtcTime: 2024-01-13 23:30:20.301
+User: DESKTOP-ACUIGRD\MS2",Info,,,,,,,"{00efea9f-0e27-65a3-2e13-000000000900}",6928,,,,,134766,"technique_id=T1059.001,technique_name=PowerShell","S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,"C:\Windows\Temp\google1.ps1",,,,,,"File created (rule: FileCreate)",,Information,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2","2024-01-13 23:30:20.301","01/13/2024 06:30:20 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=11
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134766
+Keywords=None
+TaskCategory=File created (rule: FileCreate)
+OpCode=Info
+Message=File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2024-01-13 23:30:20.301
+ProcessGuid: {00efea9f-0e27-65a3-2e13-000000000900}
+ProcessId: 6928
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+TargetFilename: C:\Windows\Temp\google1.ps1
+CreationUtcTime: 2024-01-13 23:30:20.301
+User: DESKTOP-ACUIGRD\MS2","2024-01-13T21:30:20.000-05:00",18,13,30,january,20,saturday,2024,local,,,,,,,,,,"2024-01-13 23:30:20.301","File Created",11,,4,,,"2024-01-13 23:30:20.301",,,,"C:\Windows\Temp\google1.ps1",,,,,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,23,,,,,,,,,"{00efea9f-0e27-65a3-2e13-000000000900}",6928,,"powershell_ise.exe",,,,,,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe","//_::_=--/===-==---==--====__(:_)==_:\r:_=.,=\r:_--_",,,,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2",,,,,,,,,,,
+,,,,"DESKTOP-ACUIGRD",,,,"Binary Data",13,"4
+SetValue",,,,"C:\Program Files\7-Zip\7z.exe",,,,None,"Microsoft-Windows-Sysmon/Operational",,,"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2024-01-13 23:30:19.379
+ProcessGuid: {00efea9f-1d0b-65a3-363f-000000000900}
+ProcessId: 1528
+Image: C:\Program Files\7-Zip\7z.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-2027239191-755833379-2515012329-1001\\Device\HarddiskVolume3\Program Files\7-Zip\7z.exe
+Details: Binary Data
+User: DESKTOP-ACUIGRD\MS2",Info,,,,,,,"{00efea9f-1d0b-65a3-363f-000000000900}",1528,,,,,134765,"-","S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,,,"HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-2027239191-755833379-2515012329-1001\\Device\HarddiskVolume3\Program Files\7-Zip\7z.exe",,,,"Registry value set (rule: RegistryEvent)",,Information,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2","2024-01-13 23:30:19.379","01/13/2024 06:30:19 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=13
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134765
+Keywords=None
+TaskCategory=Registry value set (rule: RegistryEvent)
+OpCode=Info
+Message=Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2024-01-13 23:30:19.379
+ProcessGuid: {00efea9f-1d0b-65a3-363f-000000000900}
+ProcessId: 1528
+Image: C:\Program Files\7-Zip\7z.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-2027239191-755833379-2515012329-1001\\Device\HarddiskVolume3\Program Files\7-Zip\7z.exe
+Details: Binary Data
+User: DESKTOP-ACUIGRD\MS2","2024-01-13T21:30:19.000-05:00",18,13,30,january,19,saturday,2024,local,,,,,,,,,,"2024-01-13 23:30:19.379","Registry value set",13,,"4
+SetValue",,,,,,,,,,,,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,24,,,,,,,,,"{00efea9f-1d0b-65a3-363f-000000000900}",1528,,"7z.exe",,,,,,"C:\Program Files\7-Zip\7z.exe","//_::_=--/===-==---==--====___(:_)==__:\r:_-\r:_\r:_-",,,,"Binary Data",,"HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-2027239191-755833379-2515012329-1001\\Device\HarddiskVolume3\Program Files\7-Zip\7z.exe",,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2",,,,,,,,,,,
+,,,,"DESKTOP-ACUIGRD","2024-01-13 23:30:19.323",,,,11,4,,,,"C:\Program Files\7-Zip\7z.exe",,,,None,"Microsoft-Windows-Sysmon/Operational",,,"File created:
+RuleName: technique_id=T1574.010,technique_name=Services File Permissions Weakness
+UtcTime: 2024-01-13 23:30:19.324
+ProcessGuid: {00efea9f-1d0b-65a3-363f-000000000900}
+ProcessId: 1528
+Image: C:\Program Files\7-Zip\7z.exe
+TargetFilename: C:\Windows\Temp\gamedata.zip
+CreationUtcTime: 2024-01-13 23:30:19.323
+User: DESKTOP-ACUIGRD\MS2",Info,,,,,,,"{00efea9f-1d0b-65a3-363f-000000000900}",1528,,,,,134764,"technique_id=T1574.010,technique_name=Services File Permissions Weakness","S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,"C:\Windows\Temp\gamedata.zip",,,,,,"File created (rule: FileCreate)",,Information,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2","2024-01-13 23:30:19.324","01/13/2024 06:30:19 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=11
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134764
+Keywords=None
+TaskCategory=File created (rule: FileCreate)
+OpCode=Info
+Message=File created:
+RuleName: technique_id=T1574.010,technique_name=Services File Permissions Weakness
+UtcTime: 2024-01-13 23:30:19.324
+ProcessGuid: {00efea9f-1d0b-65a3-363f-000000000900}
+ProcessId: 1528
+Image: C:\Program Files\7-Zip\7z.exe
+TargetFilename: C:\Windows\Temp\gamedata.zip
+CreationUtcTime: 2024-01-13 23:30:19.323
+User: DESKTOP-ACUIGRD\MS2","2024-01-13T21:30:19.000-05:00",18,13,30,january,19,saturday,2024,local,,,,,,,,,,"2024-01-13 23:30:19.324","File Created",11,,4,,,"2024-01-13 23:30:19.323",,,,"C:\Windows\Temp\gamedata.zip",,,,,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,23,,,,,,,,,"{00efea9f-1d0b-65a3-363f-000000000900}",1528,,"7z.exe",,,,,,"C:\Program Files\7-Zip\7z.exe","//_::_=--/===-==---==--====__(:_)==_:\r:_=.,=___\r:_",,,,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2",,,,,,,,,,,
+,,,,"DESKTOP-ACUIGRD",,,,"Binary Data",13,"4
+SetValue",,,,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe",,,,None,"Microsoft-Windows-Sysmon/Operational",,,"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2024-01-13 23:30:19.175
+ProcessGuid: {00efea9f-0e27-65a3-2e13-000000000900}
+ProcessId: 6928
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-2027239191-755833379-2515012329-1001\\Device\HarddiskVolume3\Program Files\7-Zip\7z.exe
+Details: Binary Data
+User: DESKTOP-ACUIGRD\MS2",Info,,,,,,,"{00efea9f-0e27-65a3-2e13-000000000900}",6928,,,,,134763,"-","S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,,,"HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-2027239191-755833379-2515012329-1001\\Device\HarddiskVolume3\Program Files\7-Zip\7z.exe",,,,"Registry value set (rule: RegistryEvent)",,Information,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2","2024-01-13 23:30:19.175","01/13/2024 06:30:19 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=13
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134763
+Keywords=None
+TaskCategory=Registry value set (rule: RegistryEvent)
+OpCode=Info
+Message=Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2024-01-13 23:30:19.175
+ProcessGuid: {00efea9f-0e27-65a3-2e13-000000000900}
+ProcessId: 6928
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-2027239191-755833379-2515012329-1001\\Device\HarddiskVolume3\Program Files\7-Zip\7z.exe
+Details: Binary Data
+User: DESKTOP-ACUIGRD\MS2","2024-01-13T21:30:19.000-05:00",18,13,30,january,19,saturday,2024,local,,,,,,,,,,"2024-01-13 23:30:19.175","Registry value set",13,,"4
+SetValue",,,,,,,,,,,,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,24,,,,,,,,,"{00efea9f-0e27-65a3-2e13-000000000900}",6928,,"powershell_ise.exe",,,,,,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe","//_::_=--/===-==---==--====___(:_)==__:\r:_-\r:_\r:_-",,,,"Binary Data",,"HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-2027239191-755833379-2515012329-1001\\Device\HarddiskVolume3\Program Files\7-Zip\7z.exe",,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2",,,,,,,,,,,
+,,,,"DESKTOP-ACUIGRD","2024-01-13 23:30:19.164",,,,11,4,,,,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe",,,,None,"Microsoft-Windows-Sysmon/Operational",,,"File created:
+RuleName: technique_id=T1574.010,technique_name=Services File Permissions Weakness
+UtcTime: 2024-01-13 23:30:19.164
+ProcessGuid: {00efea9f-0e27-65a3-2e13-000000000900}
+ProcessId: 6928
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+TargetFilename: C:\Windows\Temp\gamedata\History
+CreationUtcTime: 2024-01-13 23:30:19.164
+User: DESKTOP-ACUIGRD\MS2",Info,,,,,,,"{00efea9f-0e27-65a3-2e13-000000000900}",6928,,,,,134762,"technique_id=T1574.010,technique_name=Services File Permissions Weakness","S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,"C:\Windows\Temp\gamedata\History",,,,,,"File created (rule: FileCreate)",,Information,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2","2024-01-13 23:30:19.164","01/13/2024 06:30:19 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=11
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134762
+Keywords=None
+TaskCategory=File created (rule: FileCreate)
+OpCode=Info
+Message=File created:
+RuleName: technique_id=T1574.010,technique_name=Services File Permissions Weakness
+UtcTime: 2024-01-13 23:30:19.164
+ProcessGuid: {00efea9f-0e27-65a3-2e13-000000000900}
+ProcessId: 6928
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+TargetFilename: C:\Windows\Temp\gamedata\History
+CreationUtcTime: 2024-01-13 23:30:19.164
+User: DESKTOP-ACUIGRD\MS2","2024-01-13T21:30:19.000-05:00",18,13,30,january,19,saturday,2024,local,,,,,,,,,,"2024-01-13 23:30:19.164","File Created",11,,4,,,"2024-01-13 23:30:19.164",,,,"C:\Windows\Temp\gamedata\History",,,,,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,23,,,,,,,,,"{00efea9f-0e27-65a3-2e13-000000000900}",6928,,"powershell_ise.exe",,,,,,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe","//_::_=--/===-==---==--====__(:_)==_:\r:_=.,=___\r:_",,,,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2",,,,,,,,,,,
+,,,,"DESKTOP-ACUIGRD",,,,,22,4,,,,"<unknown process>",,,,None,"Microsoft-Windows-Sysmon/Operational",,,"Dns query:
+RuleName: -
+UtcTime: 2024-01-13 23:30:57.160
+ProcessGuid: {00000000-0000-0000-0000-000000000000}
+ProcessId: 1408
+QueryName: beam.scs.splunk.com
+QueryStatus: 0
+QueryResults: ::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;
+Image: <unknown process>
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,"{00000000-0000-0000-0000-000000000000}",1408,,"beam.scs.splunk.com","::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;",0,134761,"-","S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,,,,,,,"Dns query (rule: DnsQuery)",,Information,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM","2024-01-13 23:30:57.160","01/13/2024 06:30:18 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=22
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134761
+Keywords=None
+TaskCategory=Dns query (rule: DnsQuery)
+OpCode=Info
+Message=Dns query:
+RuleName: -
+UtcTime: 2024-01-13 23:30:57.160
+ProcessGuid: {00000000-0000-0000-0000-000000000000}
+ProcessId: 1408
+QueryName: beam.scs.splunk.com
+QueryStatus: 0
+QueryResults: ::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;
+Image: <unknown process>
+User: NT AUTHORITY\SYSTEM","2024-01-13T21:30:18.000-05:00",18,13,30,january,18,saturday,2024,local,,,,,,,,,,"2024-01-13 23:30:57.160","DNS Query",22,,4,,,,,,,,,,,,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,24,,,,,,,,,,,,"<unknown process>",,,,,,"<unknown process>","//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","beam.scs.splunk.com","::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;",0,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM",,,,,,,,,,,
+,,,"Microsoft Corporation","DESKTOP-ACUIGRD",,,"IOfficeAntiVirus Module",,7,4,"4.18.23110.3 (9ebb3643d539a6fc4659898b1df3124d5da4c0a9)",,"SHA1=11B7104EC52CC20D9082F90832A137CC6D36ADA6,MD5=4C1B9E90DA231DA9D51504664C5464CA,SHA256=5DE8EA039A656037EA6470132DECDBB11012E6F84D07060A36CD3AC029CEB15C,IMPHASH=28D3DE166C9E9C46DC0EA2089E2AC74E","C:\Windows\System32\systeminfo.exe","C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpOAV.dll",,,None,"Microsoft-Windows-Sysmon/Operational",,,"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2024-01-13 23:30:16.150
+ProcessGuid: {00efea9f-1d07-65a3-1f3f-000000000900}
+ProcessId: 10284
+Image: C:\Windows\System32\systeminfo.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpOAV.dll
+FileVersion: 4.18.23110.3 (9ebb3643d539a6fc4659898b1df3124d5da4c0a9)
+Description: IOfficeAntiVirus Module
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: MpOAV.dll
+Hashes: SHA1=11B7104EC52CC20D9082F90832A137CC6D36ADA6,MD5=4C1B9E90DA231DA9D51504664C5464CA,SHA256=5DE8EA039A656037EA6470132DECDBB11012E6F84D07060A36CD3AC029CEB15C,IMPHASH=28D3DE166C9E9C46DC0EA2089E2AC74E
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-ACUIGRD\MS2",Info,"MpOAV.dll",,,,,,"{00efea9f-1d07-65a3-1f3f-000000000900}",10284,"Microsoft® Windows® Operating System",,,,134760,"technique_id=T1574.002,technique_name=DLL Side-Loading","S-1-5-18",0,"Microsoft Windows",Valid,true,,"Microsoft-Windows-Sysmon",,,,,,,,,,,"Image loaded (rule: ImageLoad)",,Information,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2","2024-01-13 23:30:16.150","01/13/2024 06:30:16 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=7
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134760
+Keywords=None
+TaskCategory=Image loaded (rule: ImageLoad)
+OpCode=Info
+Message=Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2024-01-13 23:30:16.150
+ProcessGuid: {00efea9f-1d07-65a3-1f3f-000000000900}
+ProcessId: 10284
+Image: C:\Windows\System32\systeminfo.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpOAV.dll
+FileVersion: 4.18.23110.3 (9ebb3643d539a6fc4659898b1df3124d5da4c0a9)
+Description: IOfficeAntiVirus Module
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: MpOAV.dll
+Hashes: SHA1=11B7104EC52CC20D9082F90832A137CC6D36ADA6,MD5=4C1B9E90DA231DA9D51504664C5464CA,SHA256=5DE8EA039A656037EA6470132DECDBB11012E6F84D07060A36CD3AC029CEB15C,IMPHASH=28D3DE166C9E9C46DC0EA2089E2AC74E
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-ACUIGRD\MS2","2024-01-13T21:30:16.000-05:00",18,13,30,january,16,saturday,2024,local,true,"C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpOAV.dll","Microsoft Windows",Valid,,,,,,"2024-01-13 23:30:16.150","Image Load",7,,4,,"Microsoft Corporation",,"IOfficeAntiVirus Module",,"MpOAV.dll",,,"Microsoft® Windows® Operating System","4.18.23110.3 (9ebb3643d539a6fc4659898b1df3124d5da4c0a9)",,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,31,,,"MpOAV.dll",,,,,,"{00efea9f-1d07-65a3-1f3f-000000000900}",10284,,"systeminfo.exe",,,,,,"C:\Windows\System32\systeminfo.exe","//_::_=--/===-==---==--====__(:_)==_:\r:_=.,=_-\r:_-",,,,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2",,,,,,,,,,,
+,,,"Microsoft Corporation","DESKTOP-ACUIGRD",,,"Anti-Malware Scan Interface",,7,4,"10.0.19041.3636 (WinBuild.160101.0800)",,"SHA1=7F726807E2F3B2F6D98D7B103D794DA01E3BBB47,MD5=014B6B18D79C9B8F79232C5B7337E4B9,SHA256=27E3924F616691341A475BBCE6EA1B4776E243DF48E933D7961EB73D5263AE79,IMPHASH=C414C6B76EBCEEF67B5B752A7E51D4D2","C:\Windows\System32\systeminfo.exe","C:\Windows\System32\amsi.dll",,,None,"Microsoft-Windows-Sysmon/Operational",,,"Image loaded:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2024-01-13 23:30:16.139
+ProcessGuid: {00efea9f-1d07-65a3-1f3f-000000000900}
+ProcessId: 10284
+Image: C:\Windows\System32\systeminfo.exe
+ImageLoaded: C:\Windows\System32\amsi.dll
+FileVersion: 10.0.19041.3636 (WinBuild.160101.0800)
+Description: Anti-Malware Scan Interface
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: amsi.dll
+Hashes: SHA1=7F726807E2F3B2F6D98D7B103D794DA01E3BBB47,MD5=014B6B18D79C9B8F79232C5B7337E4B9,SHA256=27E3924F616691341A475BBCE6EA1B4776E243DF48E933D7961EB73D5263AE79,IMPHASH=C414C6B76EBCEEF67B5B752A7E51D4D2
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-ACUIGRD\MS2",Info,"amsi.dll",,,,,,"{00efea9f-1d07-65a3-1f3f-000000000900}",10284,"Microsoft® Windows® Operating System",,,,134759,"technique_id=T1059.001,technique_name=PowerShell","S-1-5-18",0,"Microsoft Windows",Valid,true,,"Microsoft-Windows-Sysmon",,,,,,,,,,,"Image loaded (rule: ImageLoad)",,Information,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2","2024-01-13 23:30:16.139","01/13/2024 06:30:16 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=7
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134759
+Keywords=None
+TaskCategory=Image loaded (rule: ImageLoad)
+OpCode=Info
+Message=Image loaded:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2024-01-13 23:30:16.139
+ProcessGuid: {00efea9f-1d07-65a3-1f3f-000000000900}
+ProcessId: 10284
+Image: C:\Windows\System32\systeminfo.exe
+ImageLoaded: C:\Windows\System32\amsi.dll
+FileVersion: 10.0.19041.3636 (WinBuild.160101.0800)
+Description: Anti-Malware Scan Interface
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: amsi.dll
+Hashes: SHA1=7F726807E2F3B2F6D98D7B103D794DA01E3BBB47,MD5=014B6B18D79C9B8F79232C5B7337E4B9,SHA256=27E3924F616691341A475BBCE6EA1B4776E243DF48E933D7961EB73D5263AE79,IMPHASH=C414C6B76EBCEEF67B5B752A7E51D4D2
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-ACUIGRD\MS2","2024-01-13T21:30:16.000-05:00",18,13,30,january,16,saturday,2024,local,true,"C:\Windows\System32\amsi.dll","Microsoft Windows",Valid,,,,,,"2024-01-13 23:30:16.139","Image Load",7,,4,,"Microsoft Corporation",,"Anti-Malware Scan Interface",,"amsi.dll",,,"Microsoft® Windows® Operating System","10.0.19041.3636 (WinBuild.160101.0800)",,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,31,,,"amsi.dll",,,,,,"{00efea9f-1d07-65a3-1f3f-000000000900}",10284,,"systeminfo.exe",,,,,,"C:\Windows\System32\systeminfo.exe","//_::_=--/===-==---==--====__(:_)==_:\r:_=.,=\r:_--_",,,,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2",,,,,,,,,,,
+,"C:\Windows\SYSTEM32\ntdll.dll+9e8f4|C:\Windows\System32\KERNELBASE.dll+5c5f2|C:\Windows\System32\KERNELBASE.dll+59666|C:\Windows\System32\KERNEL32.dll+1cec4|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\266fb3707f773f9db1827aeee9e5e08e\System.ni.dll+3850b6|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\266fb3707f773f9db1827aeee9e5e08e\System.ni.dll+2c5889|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\266fb3707f773f9db1827aeee9e5e08e\System.ni.dll+2c51f9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\b60fb4987078897b8ef964bc08084c1a\System.Management.Automation.ni.dll+117c8d9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\b60fb4987078897b8ef964bc08084c1a\System.Management.Automation.ni.dll+10d39aa|C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\b60fb4987078897b8ef964bc08084c1a\System.Management.Automation.ni.dll+115e06d|C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\b60fb4987078897b8ef964bc08084c1a\System.Management.Automation.ni.dll+115dd2b|C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\b60fb4987078897b8ef964bc08084c1a\System.Management.Automation.ni.dll+12612cf|UNKNOWN(00007FF84E6B9E51)",,,"DESKTOP-ACUIGRD",,,,,10,4,,0x1FFFFF,,,,,,None,"Microsoft-Windows-Sysmon/Operational",,,"Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2024-01-13 23:30:15.671
+SourceProcessGUID: {00efea9f-0e27-65a3-2e13-000000000900}
+SourceProcessId: 6928
+SourceThreadId: 9112
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+TargetProcessGUID: {00efea9f-1d07-65a3-1f3f-000000000900}
+TargetProcessId: 10284
+TargetImage: C:\Windows\system32\systeminfo.exe
+GrantedAccess: 0x1FFFFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9e8f4|C:\Windows\System32\KERNELBASE.dll+5c5f2|C:\Windows\System32\KERNELBASE.dll+59666|C:\Windows\System32\KERNEL32.dll+1cec4|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\266fb3707f773f9db1827aeee9e5e08e\System.ni.dll+3850b6|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\266fb3707f773f9db1827aeee9e5e08e\System.ni.dll+2c5889|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\266fb3707f773f9db1827aeee9e5e08e\System.ni.dll+2c51f9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\b60fb4987078897b8ef964bc08084c1a\System.Management.Automation.ni.dll+117c8d9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\b60fb4987078897b8ef964bc08084c1a\System.Management.Automation.ni.dll+10d39aa|C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\b60fb4987078897b8ef964bc08084c1a\System.Management.Automation.ni.dll+115e06d|C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\b60fb4987078897b8ef964bc08084c1a\System.Management.Automation.ni.dll+115dd2b|C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\b60fb4987078897b8ef964bc08084c1a\System.Management.Automation.ni.dll+12612cf|UNKNOWN(00007FF84E6B9E51)
+SourceUser: DESKTOP-ACUIGRD\MS2
+TargetUser: DESKTOP-ACUIGRD\MS2",Info,,,,,,,,,,,,,134758,"technique_id=T1055.001,technique_name=Dynamic-link Library Injection","S-1-5-18",0,,,,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe","Microsoft-Windows-Sysmon","{00efea9f-0e27-65a3-2e13-000000000900}",6928,9112,"DESKTOP-ACUIGRD\MS2",,"C:\Windows\system32\systeminfo.exe",,"{00efea9f-1d07-65a3-1f3f-000000000900}",10284,"DESKTOP-ACUIGRD\MS2","Process accessed (rule: ProcessAccess)",,Information,"NOT_TRANSLATED","2024-01-13 23:30:15.671","01/13/2024 06:30:15 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=10
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134758
+Keywords=None
+TaskCategory=Process accessed (rule: ProcessAccess)
+OpCode=Info
+Message=Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2024-01-13 23:30:15.671
+SourceProcessGUID: {00efea9f-0e27-65a3-2e13-000000000900}
+SourceProcessId: 6928
+SourceThreadId: 9112
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+TargetProcessGUID: {00efea9f-1d07-65a3-1f3f-000000000900}
+TargetProcessId: 10284
+TargetImage: C:\Windows\system32\systeminfo.exe
+GrantedAccess: 0x1FFFFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9e8f4|C:\Windows\System32\KERNELBASE.dll+5c5f2|C:\Windows\System32\KERNELBASE.dll+59666|C:\Windows\System32\KERNEL32.dll+1cec4|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\266fb3707f773f9db1827aeee9e5e08e\System.ni.dll+3850b6|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\266fb3707f773f9db1827aeee9e5e08e\System.ni.dll+2c5889|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\266fb3707f773f9db1827aeee9e5e08e\System.ni.dll+2c51f9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\b60fb4987078897b8ef964bc08084c1a\System.Management.Automation.ni.dll+117c8d9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\b60fb4987078897b8ef964bc08084c1a\System.Management.Automation.ni.dll+10d39aa|C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\b60fb4987078897b8ef964bc08084c1a\System.Management.Automation.ni.dll+115e06d|C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\b60fb4987078897b8ef964bc08084c1a\System.Management.Automation.ni.dll+115dd2b|C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\b60fb4987078897b8ef964bc08084c1a\System.Management.Automation.ni.dll+12612cf|UNKNOWN(00007FF84E6B9E51)
+SourceUser: DESKTOP-ACUIGRD\MS2
+TargetUser: DESKTOP-ACUIGRD\MS2","2024-01-13T21:30:15.000-05:00",18,13,30,january,15,saturday,2024,local,,,,,,,,,,"2024-01-13 23:30:15.671","Process Access",10,,4,,,,,,,,,,,,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,28,,,,,,"C:\Windows\SYSTEM32\ntdll.dll+9e8f4|C:\Windows\System32\KERNELBASE.dll+5c5f2|C:\Windows\System32\KERNELBASE.dll+59666|C:\Windows\System32\KERNEL32.dll+1cec4|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\266fb3707f773f9db1827aeee9e5e08e\System.ni.dll+3850b6|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\266fb3707f773f9db1827aeee9e5e08e\System.ni.dll+2c5889|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\266fb3707f773f9db1827aeee9e5e08e\System.ni.dll+2c51f9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\b60fb4987078897b8ef964bc08084c1a\System.Management.Automation.ni.dll+117c8d9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\b60fb4987078897b8ef964bc08084c1a\System.Management.Automation.ni.dll+10d39aa|C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\b60fb4987078897b8ef964bc08084c1a\System.Management.Automation.ni.dll+115e06d|C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\b60fb4987078897b8ef964bc08084c1a\System.Management.Automation.ni.dll+115dd2b|C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\b60fb4987078897b8ef964bc08084c1a\System.Management.Automation.ni.dll+12612cf|UNKNOWN(00007FF84E6B9E51)",,0x1FFFFF,,6928,,"powershell_ise.exe",,,,,,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe","//_::_=--/===-==---==--====__(:_)==_:\r:_=.,=-__\r:_",,,,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,10284,"systeminfo.exe","C:\Windows\system32\systeminfo.exe","DESKTOP-ACUIGRD\MS2",9112,,,,,23,0,,,"DESKTOP-ACUIGRD\MS2",,,,,,,,,,,
+,,"""C:\Windows\system32\systeminfo.exe""","Microsoft Corporation","DESKTOP-ACUIGRD",,"C:\Users\MS2\Desktop\","Displays system information",,1,4,"10.0.19041.1 (WinBuild.160101.0800)",,"SHA1=711D6F6394333AE55A06076DEB9189C04846F939,MD5=EE309A9C61511E907D87B10EF226FDCD,SHA256=6F87CAA51BDEA802045BB281FC2686A3C76364C26A3FFE6C2CCAC4AF5F9DB37B,IMPHASH=C7C3DF13F22D7A13802E6509367A5830","C:\Windows\System32\systeminfo.exe",,Medium,,None,"Microsoft-Windows-Sysmon/Operational","{00efea9f-0054-65a3-55fe-010000000000}",0x1FE55,"Process Create:
+RuleName: technique_id=T1033,technique_name=System Owner/User Discovery
+UtcTime: 2024-01-13 23:30:15.669
+ProcessGuid: {00efea9f-1d07-65a3-1f3f-000000000900}
+ProcessId: 10284
+Image: C:\Windows\System32\systeminfo.exe
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Displays system information
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: sysinfo.exe
+CommandLine: ""C:\Windows\system32\systeminfo.exe""
+CurrentDirectory: C:\Users\MS2\Desktop\
+User: DESKTOP-ACUIGRD\MS2
+LogonGuid: {00efea9f-0054-65a3-55fe-010000000000}
+LogonId: 0x1FE55
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: SHA1=711D6F6394333AE55A06076DEB9189C04846F939,MD5=EE309A9C61511E907D87B10EF226FDCD,SHA256=6F87CAA51BDEA802045BB281FC2686A3C76364C26A3FFE6C2CCAC4AF5F9DB37B,IMPHASH=C7C3DF13F22D7A13802E6509367A5830
+ParentProcessGuid: {00efea9f-0e27-65a3-2e13-000000000900}
+ParentProcessId: 6928
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe"" ""C:\Users\MS2\Desktop\Coupon.ps1""
+ParentUser: DESKTOP-ACUIGRD\MS2",Info,"sysinfo.exe","""C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe"" ""C:\Users\MS2\Desktop\Coupon.ps1""","C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe","{00efea9f-0e27-65a3-2e13-000000000900}",6928,"DESKTOP-ACUIGRD\MS2","{00efea9f-1d07-65a3-1f3f-000000000900}",10284,"Microsoft® Windows® Operating System",,,,134757,"technique_id=T1033,technique_name=System Owner/User Discovery","S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,,,,,,,"Process Create (rule: ProcessCreate)",1,Information,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2","2024-01-13 23:30:15.669","01/13/2024 06:30:15 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134757
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: technique_id=T1033,technique_name=System Owner/User Discovery
+UtcTime: 2024-01-13 23:30:15.669
+ProcessGuid: {00efea9f-1d07-65a3-1f3f-000000000900}
+ProcessId: 10284
+Image: C:\Windows\System32\systeminfo.exe
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Displays system information
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: sysinfo.exe
+CommandLine: ""C:\Windows\system32\systeminfo.exe""
+CurrentDirectory: C:\Users\MS2\Desktop\
+User: DESKTOP-ACUIGRD\MS2
+LogonGuid: {00efea9f-0054-65a3-55fe-010000000000}
+LogonId: 0x1FE55
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: SHA1=711D6F6394333AE55A06076DEB9189C04846F939,MD5=EE309A9C61511E907D87B10EF226FDCD,SHA256=6F87CAA51BDEA802045BB281FC2686A3C76364C26A3FFE6C2CCAC4AF5F9DB37B,IMPHASH=C7C3DF13F22D7A13802E6509367A5830
+ParentProcessGuid: {00efea9f-0e27-65a3-2e13-000000000900}
+ParentProcessId: 6928
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe"" ""C:\Users\MS2\Desktop\Coupon.ps1""
+ParentUser: DESKTOP-ACUIGRD\MS2","2024-01-13T21:30:15.000-05:00",18,13,30,january,15,saturday,2024,local,,,,,,,,,,"2024-01-13 23:30:15.669","Process Create",1,,4,,"Microsoft Corporation",,"Displays system information","C:\Users\MS2\Desktop\","sysinfo.exe",,,"Microsoft® Windows® Operating System","10.0.19041.1 (WinBuild.160101.0800)",,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,38,,,"sysinfo.exe","DESKTOP-ACUIGRD\MS2",,,"""C:\Windows\system32\systeminfo.exe""",,"{00efea9f-1d07-65a3-1f3f-000000000900}",10284,Medium,"systeminfo.exe","""C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe"" ""C:\Users\MS2\Desktop\Coupon.ps1""","{00efea9f-0e27-65a3-2e13-000000000900}",6928,"powershell_ise.exe","C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe","C:\Windows\System32\systeminfo.exe","//_::_=--/===-==---==--====__(:_)==_:\r:_=,=_/_\r:_-",,,,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,"{00efea9f-0054-65a3-55fe-010000000000}",0x1FE55,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2",1,,,,,,,,,,
+,,,,"DESKTOP-ACUIGRD","2024-01-13 23:30:15.663",,,,11,4,,,,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe",,,,None,"Microsoft-Windows-Sysmon/Operational",,,"File created:
+RuleName: technique_id=T1574.010,technique_name=Services File Permissions Weakness
+UtcTime: 2024-01-13 23:30:15.663
+ProcessGuid: {00efea9f-0e27-65a3-2e13-000000000900}
+ProcessId: 6928
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+TargetFilename: C:\Windows\Temp\gamedata\systeminfo.txt
+CreationUtcTime: 2024-01-13 23:30:15.663
+User: DESKTOP-ACUIGRD\MS2",Info,,,,,,,"{00efea9f-0e27-65a3-2e13-000000000900}",6928,,,,,134756,"technique_id=T1574.010,technique_name=Services File Permissions Weakness","S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,"C:\Windows\Temp\gamedata\systeminfo.txt",,,,,,"File created (rule: FileCreate)",,Information,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2","2024-01-13 23:30:15.663","01/13/2024 06:30:15 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=11
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134756
+Keywords=None
+TaskCategory=File created (rule: FileCreate)
+OpCode=Info
+Message=File created:
+RuleName: technique_id=T1574.010,technique_name=Services File Permissions Weakness
+UtcTime: 2024-01-13 23:30:15.663
+ProcessGuid: {00efea9f-0e27-65a3-2e13-000000000900}
+ProcessId: 6928
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+TargetFilename: C:\Windows\Temp\gamedata\systeminfo.txt
+CreationUtcTime: 2024-01-13 23:30:15.663
+User: DESKTOP-ACUIGRD\MS2","2024-01-13T21:30:15.000-05:00",18,13,30,january,15,saturday,2024,local,,,,,,,,,,"2024-01-13 23:30:15.663","File Created",11,,4,,,"2024-01-13 23:30:15.663",,,,"C:\Windows\Temp\gamedata\systeminfo.txt",,,,,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,23,,,,,,,,,"{00efea9f-0e27-65a3-2e13-000000000900}",6928,,"powershell_ise.exe",,,,,,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe","//_::_=--/===-==---==--====__(:_)==_:\r:_=.,=___\r:_",,,,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2",,,,,,,,,,,
+,,,,"DESKTOP-ACUIGRD","2024-01-13 23:30:05.650",,,,11,4,,,,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe",,,,None,"Microsoft-Windows-Sysmon/Operational",,,"File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2024-01-13 23:30:05.650
+ProcessGuid: {00efea9f-0e27-65a3-2e13-000000000900}
+ProcessId: 6928
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+TargetFilename: C:\Windows\Temp\itunes.ps1
+CreationUtcTime: 2024-01-13 23:30:05.650
+User: DESKTOP-ACUIGRD\MS2",Info,,,,,,,"{00efea9f-0e27-65a3-2e13-000000000900}",6928,,,,,134755,"technique_id=T1059.001,technique_name=PowerShell","S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,"C:\Windows\Temp\itunes.ps1",,,,,,"File created (rule: FileCreate)",,Information,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2","2024-01-13 23:30:05.650","01/13/2024 06:30:05 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=11
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134755
+Keywords=None
+TaskCategory=File created (rule: FileCreate)
+OpCode=Info
+Message=File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2024-01-13 23:30:05.650
+ProcessGuid: {00efea9f-0e27-65a3-2e13-000000000900}
+ProcessId: 6928
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+TargetFilename: C:\Windows\Temp\itunes.ps1
+CreationUtcTime: 2024-01-13 23:30:05.650
+User: DESKTOP-ACUIGRD\MS2","2024-01-13T21:30:05.000-05:00",18,13,30,january,5,saturday,2024,local,,,,,,,,,,"2024-01-13 23:30:05.650","File Created",11,,4,,,"2024-01-13 23:30:05.650",,,,"C:\Windows\Temp\itunes.ps1",,,,,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,23,,,,,,,,,"{00efea9f-0e27-65a3-2e13-000000000900}",6928,,"powershell_ise.exe",,,,,,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe","//_::_=--/===-==---==--====__(:_)==_:\r:_=.,=\r:_--_",,,,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2",,,,,,,,,,,
+,,,,"DESKTOP-ACUIGRD","2024-01-13 23:30:05.481",,,,11,4,,,,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe",,,,None,"Microsoft-Windows-Sysmon/Operational",,,"File created:
+RuleName: technique_id=T1574.010,technique_name=Services File Permissions Weakness
+UtcTime: 2024-01-13 23:30:05.481
+ProcessGuid: {00efea9f-0e27-65a3-2e13-000000000900}
+ProcessId: 6928
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+TargetFilename: C:\Windows\Temp\gamedata
+CreationUtcTime: 2024-01-13 23:30:05.481
+User: DESKTOP-ACUIGRD\MS2",Info,,,,,,,"{00efea9f-0e27-65a3-2e13-000000000900}",6928,,,,,134754,"technique_id=T1574.010,technique_name=Services File Permissions Weakness","S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,"C:\Windows\Temp\gamedata",,,,,,"File created (rule: FileCreate)",,Information,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2","2024-01-13 23:30:05.481","01/13/2024 06:30:05 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=11
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134754
+Keywords=None
+TaskCategory=File created (rule: FileCreate)
+OpCode=Info
+Message=File created:
+RuleName: technique_id=T1574.010,technique_name=Services File Permissions Weakness
+UtcTime: 2024-01-13 23:30:05.481
+ProcessGuid: {00efea9f-0e27-65a3-2e13-000000000900}
+ProcessId: 6928
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+TargetFilename: C:\Windows\Temp\gamedata
+CreationUtcTime: 2024-01-13 23:30:05.481
+User: DESKTOP-ACUIGRD\MS2","2024-01-13T21:30:05.000-05:00",18,13,30,january,5,saturday,2024,local,,,,,,,,,,"2024-01-13 23:30:05.481","File Created",11,,4,,,"2024-01-13 23:30:05.481",,,,"C:\Windows\Temp\gamedata",,,,,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,23,,,,,,,,,"{00efea9f-0e27-65a3-2e13-000000000900}",6928,,"powershell_ise.exe",,,,,,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe","//_::_=--/===-==---==--====__(:_)==_:\r:_=.,=___\r:_",,,,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+DESKTOP-ACUIGRD\MS2",,,,,,,,,,,
+,,,"Microsoft Corporation","DESKTOP-ACUIGRD",,,"Client Interface",,7,4,"4.18.23110.3 (9ebb3643d539a6fc4659898b1df3124d5da4c0a9)",,"SHA1=8344E05CA5723A6DDBDE98B07C5728F2BE5CA3E1,MD5=F26FB961FA9D4C06770BF069E76664F6,SHA256=25A064F85965968585E56FCD06C62D1FF0DEE4EA6B09EEBC725BA5FE1292C865,IMPHASH=8AB4BEA152A206D4E5D55EAD25047A6D","C:\Windows\System32\wbem\WmiPrvSE.exe","C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpClient.dll",,,None,"Microsoft-Windows-Sysmon/Operational",,,"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2024-01-13 23:30:05.360
+ProcessGuid: {00efea9f-1cfd-65a3-fc3e-000000000900}
+ProcessId: 6820
+Image: C:\Windows\System32\wbem\WmiPrvSE.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpClient.dll
+FileVersion: 4.18.23110.3 (9ebb3643d539a6fc4659898b1df3124d5da4c0a9)
+Description: Client Interface
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mpclient.dll
+Hashes: SHA1=8344E05CA5723A6DDBDE98B07C5728F2BE5CA3E1,MD5=F26FB961FA9D4C06770BF069E76664F6,SHA256=25A064F85965968585E56FCD06C62D1FF0DEE4EA6B09EEBC725BA5FE1292C865,IMPHASH=8AB4BEA152A206D4E5D55EAD25047A6D
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: NT AUTHORITY\LOCAL SERVICE",Info,"mpclient.dll",,,,,,"{00efea9f-1cfd-65a3-fc3e-000000000900}",6820,"Microsoft® Windows® Operating System",,,,134753,"technique_id=T1574.002,technique_name=DLL Side-Loading","S-1-5-18",0,"Microsoft Windows",Valid,true,,"Microsoft-Windows-Sysmon",,,,,,,,,,,"Image loaded (rule: ImageLoad)",,Information,"NOT_TRANSLATED
+NT AUTHORITY\LOCAL SERVICE","2024-01-13 23:30:05.360","01/13/2024 06:30:05 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=7
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134753
+Keywords=None
+TaskCategory=Image loaded (rule: ImageLoad)
+OpCode=Info
+Message=Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2024-01-13 23:30:05.360
+ProcessGuid: {00efea9f-1cfd-65a3-fc3e-000000000900}
+ProcessId: 6820
+Image: C:\Windows\System32\wbem\WmiPrvSE.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpClient.dll
+FileVersion: 4.18.23110.3 (9ebb3643d539a6fc4659898b1df3124d5da4c0a9)
+Description: Client Interface
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mpclient.dll
+Hashes: SHA1=8344E05CA5723A6DDBDE98B07C5728F2BE5CA3E1,MD5=F26FB961FA9D4C06770BF069E76664F6,SHA256=25A064F85965968585E56FCD06C62D1FF0DEE4EA6B09EEBC725BA5FE1292C865,IMPHASH=8AB4BEA152A206D4E5D55EAD25047A6D
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: NT AUTHORITY\LOCAL SERVICE","2024-01-13T21:30:05.000-05:00",18,13,30,january,5,saturday,2024,local,true,"C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpClient.dll","Microsoft Windows",Valid,,,,,,"2024-01-13 23:30:05.360","Image Load",7,,4,,"Microsoft Corporation",,"Client Interface",,"mpclient.dll",,,"Microsoft® Windows® Operating System","4.18.23110.3 (9ebb3643d539a6fc4659898b1df3124d5da4c0a9)",,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,31,,,"mpclient.dll",,,,,,"{00efea9f-1cfd-65a3-fc3e-000000000900}",6820,,"WmiPrvSE.exe",,,,,,"C:\Windows\System32\wbem\WmiPrvSE.exe","//_::_=--/===-==---==--====__(:_)==_:\r:_=.,=_-\r:_-",,,,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+NT AUTHORITY\LOCAL SERVICE",,,,,,,,,,,
+,,,"Microsoft Corporation","DESKTOP-ACUIGRD",,,"Protection Management WMIv2 Provider",,7,4,"4.18.23110.3 (9ebb3643d539a6fc4659898b1df3124d5da4c0a9)",,"SHA1=1041269847075B3D526175540CA653D168A25E06,MD5=2A97B2FCF1C4240E1D93F9637097CA31,SHA256=E5848C0B46B856E4AD159ABA152948177D46F5B268E40991BE5915AA06B29752,IMPHASH=6E86D57917746F4B2E1111BD5FC4F8F9","C:\Windows\System32\wbem\WmiPrvSE.exe","C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\ProtectionManagement.dll",,,None,"Microsoft-Windows-Sysmon/Operational",,,"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2024-01-13 23:30:05.344
+ProcessGuid: {00efea9f-1cfd-65a3-fc3e-000000000900}
+ProcessId: 6820
+Image: C:\Windows\System32\wbem\WmiPrvSE.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\ProtectionManagement.dll
+FileVersion: 4.18.23110.3 (9ebb3643d539a6fc4659898b1df3124d5da4c0a9)
+Description: Protection Management WMIv2 Provider
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: ProtectionManagement.dll
+Hashes: SHA1=1041269847075B3D526175540CA653D168A25E06,MD5=2A97B2FCF1C4240E1D93F9637097CA31,SHA256=E5848C0B46B856E4AD159ABA152948177D46F5B268E40991BE5915AA06B29752,IMPHASH=6E86D57917746F4B2E1111BD5FC4F8F9
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: NT AUTHORITY\LOCAL SERVICE",Info,"ProtectionManagement.dll",,,,,,"{00efea9f-1cfd-65a3-fc3e-000000000900}",6820,"Microsoft® Windows® Operating System",,,,134752,"technique_id=T1574.002,technique_name=DLL Side-Loading","S-1-5-18",0,"Microsoft Windows",Valid,true,,"Microsoft-Windows-Sysmon",,,,,,,,,,,"Image loaded (rule: ImageLoad)",,Information,"NOT_TRANSLATED
+NT AUTHORITY\LOCAL SERVICE","2024-01-13 23:30:05.344","01/13/2024 06:30:05 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=7
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134752
+Keywords=None
+TaskCategory=Image loaded (rule: ImageLoad)
+OpCode=Info
+Message=Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2024-01-13 23:30:05.344
+ProcessGuid: {00efea9f-1cfd-65a3-fc3e-000000000900}
+ProcessId: 6820
+Image: C:\Windows\System32\wbem\WmiPrvSE.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\ProtectionManagement.dll
+FileVersion: 4.18.23110.3 (9ebb3643d539a6fc4659898b1df3124d5da4c0a9)
+Description: Protection Management WMIv2 Provider
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: ProtectionManagement.dll
+Hashes: SHA1=1041269847075B3D526175540CA653D168A25E06,MD5=2A97B2FCF1C4240E1D93F9637097CA31,SHA256=E5848C0B46B856E4AD159ABA152948177D46F5B268E40991BE5915AA06B29752,IMPHASH=6E86D57917746F4B2E1111BD5FC4F8F9
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: NT AUTHORITY\LOCAL SERVICE","2024-01-13T21:30:05.000-05:00",18,13,30,january,5,saturday,2024,local,true,"C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\ProtectionManagement.dll","Microsoft Windows",Valid,,,,,,"2024-01-13 23:30:05.344","Image Load",7,,4,,"Microsoft Corporation",,"Protection Management WMIv2 Provider",,"ProtectionManagement.dll",,,"Microsoft® Windows® Operating System","4.18.23110.3 (9ebb3643d539a6fc4659898b1df3124d5da4c0a9)",,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,31,,,"ProtectionManagement.dll",,,,,,"{00efea9f-1cfd-65a3-fc3e-000000000900}",6820,,"WmiPrvSE.exe",,,,,,"C:\Windows\System32\wbem\WmiPrvSE.exe","//_::_=--/===-==---==--====__(:_)==_:\r:_=.,=_-\r:_-",,,,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+NT AUTHORITY\LOCAL SERVICE",,,,,,,,,,,
+,,,"Microsoft Corporation","DESKTOP-ACUIGRD",,,WMI,,7,4,"10.0.19041.3758 (WinBuild.160101.0800)",,"SHA1=7A5E29E3C47B1910E3020406F6EDE8F1121F7CA8,MD5=A7910B4390BF27ED2F6B4003D2BC0EEC,SHA256=C8D01627A886FBC5695FB62837361997F1D12606A000686DA9A6C97589240918,IMPHASH=0D31E6D27B954AD879CB4DF742982F1A","C:\Windows\System32\wbem\WmiPrvSE.exe","C:\Windows\System32\wbem\wmiutils.dll",,,None,"Microsoft-Windows-Sysmon/Operational",,,"Image loaded:
+RuleName: technique_id=T1047,technique_name=Windows Management Instrumentation
+UtcTime: 2024-01-13 23:30:05.330
+ProcessGuid: {00efea9f-1cfd-65a3-fc3e-000000000900}
+ProcessId: 6820
+Image: C:\Windows\System32\wbem\WmiPrvSE.exe
+ImageLoaded: C:\Windows\System32\wbem\wmiutils.dll
+FileVersion: 10.0.19041.3758 (WinBuild.160101.0800)
+Description: WMI
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: wmiutils.dll
+Hashes: SHA1=7A5E29E3C47B1910E3020406F6EDE8F1121F7CA8,MD5=A7910B4390BF27ED2F6B4003D2BC0EEC,SHA256=C8D01627A886FBC5695FB62837361997F1D12606A000686DA9A6C97589240918,IMPHASH=0D31E6D27B954AD879CB4DF742982F1A
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: NT AUTHORITY\LOCAL SERVICE",Info,"wmiutils.dll",,,,,,"{00efea9f-1cfd-65a3-fc3e-000000000900}",6820,"Microsoft® Windows® Operating System",,,,134751,"technique_id=T1047,technique_name=Windows Management Instrumentation","S-1-5-18",0,"Microsoft Windows",Valid,true,,"Microsoft-Windows-Sysmon",,,,,,,,,,,"Image loaded (rule: ImageLoad)",,Information,"NOT_TRANSLATED
+NT AUTHORITY\LOCAL SERVICE","2024-01-13 23:30:05.330","01/13/2024 06:30:05 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=7
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134751
+Keywords=None
+TaskCategory=Image loaded (rule: ImageLoad)
+OpCode=Info
+Message=Image loaded:
+RuleName: technique_id=T1047,technique_name=Windows Management Instrumentation
+UtcTime: 2024-01-13 23:30:05.330
+ProcessGuid: {00efea9f-1cfd-65a3-fc3e-000000000900}
+ProcessId: 6820
+Image: C:\Windows\System32\wbem\WmiPrvSE.exe
+ImageLoaded: C:\Windows\System32\wbem\wmiutils.dll
+FileVersion: 10.0.19041.3758 (WinBuild.160101.0800)
+Description: WMI
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: wmiutils.dll
+Hashes: SHA1=7A5E29E3C47B1910E3020406F6EDE8F1121F7CA8,MD5=A7910B4390BF27ED2F6B4003D2BC0EEC,SHA256=C8D01627A886FBC5695FB62837361997F1D12606A000686DA9A6C97589240918,IMPHASH=0D31E6D27B954AD879CB4DF742982F1A
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: NT AUTHORITY\LOCAL SERVICE","2024-01-13T21:30:05.000-05:00",18,13,30,january,5,saturday,2024,local,true,"C:\Windows\System32\wbem\wmiutils.dll","Microsoft Windows",Valid,,,,,,"2024-01-13 23:30:05.330","Image Load",7,,4,,"Microsoft Corporation",,WMI,,"wmiutils.dll",,,"Microsoft® Windows® Operating System","10.0.19041.3758 (WinBuild.160101.0800)",,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,31,,,"wmiutils.dll",,,,,,"{00efea9f-1cfd-65a3-fc3e-000000000900}",6820,,"WmiPrvSE.exe",,,,,,"C:\Windows\System32\wbem\WmiPrvSE.exe","//_::_=--/===-==---==--====__(:_)==_:\r:_=,=__\r:_--",,,,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+NT AUTHORITY\LOCAL SERVICE",,,,,,,,,,,
+,,"C:\Windows\system32\wbem\wmiprvse.exe -secured -Embedding","Microsoft Corporation","DESKTOP-ACUIGRD",,"C:\Windows\system32\","WMI Provider Host",,1,4,"10.0.19041.3636 (WinBuild.160101.0800)",,"SHA1=7F530281C5BA86B81AE4230DAB1617CB55260D9E,MD5=8BB61C2B1E34FF3C778CF150BDF08238,SHA256=8BBDEAD7357AF7BF0EFE397F9FD7E0EC578755EB8BDBAA65AE4F28EF00087AD5,IMPHASH=B71CB3AC5C352BEC857C940CBC95F0F3","C:\Windows\System32\wbem\WmiPrvSE.exe",,System,,None,"Microsoft-Windows-Sysmon/Operational","{00efea9f-0053-65a3-e503-000000000000}",0x3E5,"Process Create:
+RuleName: technique_id=T1047,technique_name=Windows Management Instrumentation
+UtcTime: 2024-01-13 23:30:05.185
+ProcessGuid: {00efea9f-1cfd-65a3-fc3e-000000000900}
+ProcessId: 6820
+Image: C:\Windows\System32\wbem\WmiPrvSE.exe
+FileVersion: 10.0.19041.3636 (WinBuild.160101.0800)
+Description: WMI Provider Host
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Wmiprvse.exe
+CommandLine: C:\Windows\system32\wbem\wmiprvse.exe -secured -Embedding
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\LOCAL SERVICE
+LogonGuid: {00efea9f-0053-65a3-e503-000000000000}
+LogonId: 0x3E5
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: SHA1=7F530281C5BA86B81AE4230DAB1617CB55260D9E,MD5=8BB61C2B1E34FF3C778CF150BDF08238,SHA256=8BBDEAD7357AF7BF0EFE397F9FD7E0EC578755EB8BDBAA65AE4F28EF00087AD5,IMPHASH=B71CB3AC5C352BEC857C940CBC95F0F3
+ParentProcessGuid: {00efea9f-0052-65a3-0d00-000000000900}
+ParentProcessId: 820
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\Windows\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM",Info,"Wmiprvse.exe","C:\Windows\system32\svchost.exe -k DcomLaunch -p","C:\Windows\System32\svchost.exe","{00efea9f-0052-65a3-0d00-000000000900}",820,"NT AUTHORITY\SYSTEM","{00efea9f-1cfd-65a3-fc3e-000000000900}",6820,"Microsoft® Windows® Operating System",,,,134750,"technique_id=T1047,technique_name=Windows Management Instrumentation","S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,,,,,,,"Process Create (rule: ProcessCreate)",0,Information,"NOT_TRANSLATED
+NT AUTHORITY\LOCAL SERVICE","2024-01-13 23:30:05.185","01/13/2024 06:30:05 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134750
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: technique_id=T1047,technique_name=Windows Management Instrumentation
+UtcTime: 2024-01-13 23:30:05.185
+ProcessGuid: {00efea9f-1cfd-65a3-fc3e-000000000900}
+ProcessId: 6820
+Image: C:\Windows\System32\wbem\WmiPrvSE.exe
+FileVersion: 10.0.19041.3636 (WinBuild.160101.0800)
+Description: WMI Provider Host
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Wmiprvse.exe
+CommandLine: C:\Windows\system32\wbem\wmiprvse.exe -secured -Embedding
+CurrentDirectory: C:\Windows\system32\
+User: NT AUTHORITY\LOCAL SERVICE
+LogonGuid: {00efea9f-0053-65a3-e503-000000000000}
+LogonId: 0x3E5
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: SHA1=7F530281C5BA86B81AE4230DAB1617CB55260D9E,MD5=8BB61C2B1E34FF3C778CF150BDF08238,SHA256=8BBDEAD7357AF7BF0EFE397F9FD7E0EC578755EB8BDBAA65AE4F28EF00087AD5,IMPHASH=B71CB3AC5C352BEC857C940CBC95F0F3
+ParentProcessGuid: {00efea9f-0052-65a3-0d00-000000000900}
+ParentProcessId: 820
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\Windows\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM","2024-01-13T21:30:05.000-05:00",18,13,30,january,5,saturday,2024,local,,,,,,,,,,"2024-01-13 23:30:05.185","Process Create",1,,4,,"Microsoft Corporation",,"WMI Provider Host","C:\Windows\system32\","Wmiprvse.exe",,,"Microsoft® Windows® Operating System","10.0.19041.3636 (WinBuild.160101.0800)",,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,38,,,"Wmiprvse.exe","NT AUTHORITY\SYSTEM",,,"C:\Windows\system32\wbem\wmiprvse.exe -secured -Embedding",,"{00efea9f-1cfd-65a3-fc3e-000000000900}",6820,System,"WmiPrvSE.exe","C:\Windows\system32\svchost.exe -k DcomLaunch -p","{00efea9f-0052-65a3-0d00-000000000900}",820,"svchost.exe","C:\Windows\System32\svchost.exe","C:\Windows\System32\wbem\WmiPrvSE.exe","//_::_=--/===-==---==--====__(:_)==_:\r:_=,=__\r:_--",,,,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,"{00efea9f-0053-65a3-e503-000000000000}",0x3E5,"NOT_TRANSLATED
+NT AUTHORITY\LOCAL SERVICE",0,,,,,,,,,,
+,,,,"DESKTOP-ACUIGRD",,,,,22,4,,,,"<unknown process>",,,,None,"Microsoft-Windows-Sysmon/Operational",,,"Dns query:
+RuleName: -
+UtcTime: 2024-01-13 23:30:41.200
+ProcessGuid: {00000000-0000-0000-0000-000000000000}
+ProcessId: 10540
+QueryName: beam.scs.splunk.com
+QueryStatus: 0
+QueryResults: ::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;
+Image: <unknown process>
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,"{00000000-0000-0000-0000-000000000000}",10540,,"beam.scs.splunk.com","::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;",0,134749,"-","S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,,,,,,,"Dns query (rule: DnsQuery)",,Information,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM","2024-01-13 23:30:41.200","01/13/2024 06:30:02 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=22
+EventType=4
+ComputerName=DESKTOP-ACUIGRD
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=134749
+Keywords=None
+TaskCategory=Dns query (rule: DnsQuery)
+OpCode=Info
+Message=Dns query:
+RuleName: -
+UtcTime: 2024-01-13 23:30:41.200
+ProcessGuid: {00000000-0000-0000-0000-000000000000}
+ProcessId: 10540
+QueryName: beam.scs.splunk.com
+QueryStatus: 0
+QueryResults: ::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;
+Image: <unknown process>
+User: NT AUTHORITY\SYSTEM","2024-01-13T21:30:02.000-05:00",18,13,30,january,2,saturday,2024,local,,,,,,,,,,"2024-01-13 23:30:41.200","DNS Query",22,,4,,,,,,,,,,,,,,,"DESKTOP-ACUIGRD","DESKTOP-ACUIGRD",main,,24,,,,,,,,,,,,"<unknown process>",,,,,,"<unknown process>","//_::_=--/===-==---==--====__(:_)==_:\r:_-\r:_--_::.","beam.scs.splunk.com","::ffff:13.249.39.37;::ffff:13.249.39.54;::ffff:13.249.39.104;::ffff:13.249.39.118;",0,,,,,"WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational","DESKTOP-ACUIGRD",,,,,,,,,,,,,"",,,,,,,,23,0,,,"NOT_TRANSLATED
+NT AUTHORITY\SYSTEM",,,,,,,,,,,
