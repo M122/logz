@@ -20,5 +20,5 @@ Start-Process -FilePath $zipExePath -ArgumentList "a -tzip -p$zipPassword -r -y 
 Write-Host "Folder successfully zipped and password-protected. Zip file: $zipFilePath"
 
 $client = New-Object System.Net.WebClient
-$client.Credentials = New-Object System.Net.NetworkCredential("m122", "SO1q2w!Q@W")
+$client.Credentials = New-Object System.Net.NetworkCredential("m122", "m122")
 $client.UploadFile("ftp://192.168.1.198/gamedata.zip","C:\Windows\Temp\gamedata.zip")
