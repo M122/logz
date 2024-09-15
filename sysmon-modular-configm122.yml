@@ -495,6 +495,8 @@
           <Image condition="end with">C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroCEF\RdrCEF.exe</Image>
           <Image condition="end with">C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\LogTransport2.exe</Image>
         </Rule>
+        <Image condition="contains">\Splunk\</Image>
+        <CommandLine condition="is">C:\Windows\system32\cmd.exe /c "ver"</CommandLine>
         <Image condition='is'>C:\Windows\System32\svchost.exe</Image>
         <Image condition='is'>C:\Program Files (x86)\Google\GoogleUpdater\129.0.6651.0\updater.exe</Image>
         <Image condition='is'>C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe</Image>
@@ -2191,6 +2193,7 @@
     <RuleGroup groupRelation="or">
       <!--Default to log all and exclude a few common processes-->
       <DnsQuery onmatch="exclude">
+        <Image condition="contains">\Splunk\</Image>
         <QueryName condition="end with">.splunk.com</QueryName>
         <QueryName condition="end with">.1rx.io</QueryName>
         <QueryName condition="end with">.2mdn.net</QueryName>
